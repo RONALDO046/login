@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+.login_formulario {
+    background-image: url(img/fundo_login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.card_login {
+    width: 400px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1 1 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    
+}
+
+input[type="email"],
+input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   outline: none;
+   border-bottom:1px solid rgba(65, 65, 65, 0.479);
+   margin-bottom: 20px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(26, 26, 232);
+    color: white;
+    font-weight: 500;
+}
+button:hover {
+    background-color: rgb(2, 2, 84);
+    color: rgb(0, 255, 251);
+}
+span {
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
